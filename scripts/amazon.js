@@ -1,6 +1,8 @@
 import {cart} from '../data/cart.js';
 import {products} from '../data/products.js';
 
+//test my ssh key working for pushing
+
 let productsHTML = '';
 
 products.forEach((product) => {
