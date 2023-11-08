@@ -1,7 +1,5 @@
-import {cart} from '../data/cart.js';
+import {cart, addToCart, updateCartQuantity} from '../data/cart.js';
 import {products} from '../data/products.js';
-
-//test if commit working with ssh key
 
 let productsHTML = '';
 
@@ -63,36 +61,6 @@ products.forEach((product) => {
 
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
-
-function addToCart(productId) {
-  let matchingItem;
-
-  cart.forEach((cartItem) => {
-    if(productId === cartItem.productId) {
-      matchingItem = cartItem;
-    }
-  });
-
-  if (matchingItem) {
-    matchingItem.quantity += 1;
-  } else {
-    cart.push({
-      productId: productId,
-      quantity: 1
-    });
-  }
-};
-
-function updateCartQuantity() {
-  let cartQuantity = 0;
-
-  cart.forEach((cartItem) => {
-    cartQuantity += cartItem.quantity;
-  });
-
-  document.querySelector('.js-cart-quantity')
-    .innerHTML = cartQuantity;
-};
 
 document.querySelectorAll('.js-add-to-cart')
   .forEach((button) => {
