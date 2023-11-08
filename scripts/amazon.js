@@ -1,6 +1,8 @@
 import {cart} from '../data/cart.js';
 import {products} from '../data/products.js';
 
+//test if commit working with ssh key
+
 let productsHTML = '';
 
 products.forEach((product) => {

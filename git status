@@ -1,0 +1,53 @@
+[33mcommit 53313eaa5e52f8c814241ae3c94d8578c33a130b[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: markCho <markkcho@outlook.com>
+Date:   Wed Nov 8 18:22:00 2023 +1100
+
+    first commit
+
+[33mcommit 3c8cfd051137610246a7de2cfddb16a75227b501[m
+Author: markCho <markkcho@outlook.com>
+Date:   Wed Nov 8 18:09:40 2023 +1100
+
+    add functions addToCart and updatCartQuantity
+
+[33mcommit 88b833e9a3d7e76c295a437cca4adf66821d7d6f[m
+Author: markCho <markkcho@outlook.com>
+Date:   Wed Nov 8 06:29:59 2023 +1100
+
+     Use modules and import products from products.js
+
+[33mcommit 7724a55cb35969f23fadbdfa6f2b9e84ab40d79f[m
+Author: markCho <markkcho@outlook.com>
+Date:   Tue Nov 7 17:09:41 2023 +1100
+
+    Use modules and import cart from cart.js
+
+[33mcommit 5e285818da60f83db06950e4df22db17b6429dc1[m
+Author: markCho <mark000cho@gmail.com>
+Date:   Mon Nov 6 20:32:51 2023 +1100
+
+    Make the cart quantity interactive
+
+[33mcommit c7d24db606cf9acb62c82730d1f509bb5e06a541[m
+Author: markCho <mark000cho@gmail.com>
+Date:   Mon Nov 6 20:26:35 2023 +1100
+
+    Make add to cart button interactive
+
+[33mcommit 00cd35d3ad3c57f353146dfe255c1e07a01ad9ae[m
+Author: markCho <mark000cho@gmail.com>
+Date:   Mon Nov 6 19:31:23 2023 +1100
+
+    Use products.js file
+
+[33mcommit 0cd83e0b2624b3873cdb9a6adbb466ee57c5812d[m
+Author: markCho <mark000cho@gmail.com>
+Date:   Mon Nov 6 19:24:23 2023 +1100
+
+    Generate HTML with JavaScript
+
+[33mcommit e04dc8053f49ca0c299fe8848d1c8c4a2fe90653[m
+Author: markCho <mark000cho@gmail.com>
+Date:   Mon Nov 6 18:21:00 2023 +1100
+
+    Add the starting files
