@@ -59,6 +59,7 @@ products.forEach((product) => {
   `;
 });
 
+//github test
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
